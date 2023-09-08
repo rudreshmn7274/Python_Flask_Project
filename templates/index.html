@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Flask and SQLite </title>
+   </head>
+   <body>
+      <h1>Web App on Mobile Products</h1>
+      <p>For Reading the Data Clink on below button</p>
+      <button class="btn" type="button" onclick="window.location.href='{{ url_for('read') }}';">View the Data</button><br/>
+      <p>For Writing the Data Clink on below button</p>
+      <button class="btn" type="button" onclick="window.location.href='{{ url_for('write') }}';">Add the products</button><br/>
+      <p>For Updating the Data Clink on below button</p>
+      <button class="btn" type="button" onclick="window.location.href='{{ url_for('update') }}';">Update the products</button><br/>
+      <p>For Deleting the Data Clink on below button</p>
+     <button class="btn" type="button" onclick="window.location.href='{{ url_for('delete') }}';">Delete the products</button>
+
+   </body>
+</html>
